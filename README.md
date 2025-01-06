@@ -40,7 +40,7 @@ To set the OpenAI API key as an environment variable in Streamlit apps, do the f
 OPENAI_API_KEY='xxxxxxxxxx'
 ```
 
-## Run it locally
+## Windows Run it locally
 
 ```sh
 virtualenv .venv
@@ -48,3 +48,13 @@ source .venv/bin/activate
 pip install -r requirements.txt
 streamlit run Chatbot.py
 ```
+
+## MACOS Run it locally
+```sh
+python -m venv .venv OR python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+streamlit run Chatbot.py
+```
+
+
